@@ -1,7 +1,5 @@
 version 0.0
-as: linux
+os: linux
 file:
- - source: /app
-  destination: /var/www/html/
-timeout: 300
-runas: root
+	- source: /app
+	  destination: /var/www/html/
